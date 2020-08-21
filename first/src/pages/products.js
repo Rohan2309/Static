@@ -11,15 +11,15 @@ const ComponentName = ({ data }) => {
   return (
     <Layout>
       <section className={styles.page}>
-        {products.map(products => {
+        {products.map(product => {
           return (
-            <article key={products.id}>
-              <Image fluid={products.image.fluid} alt={products.title}></Image>
+            <article key={product.id}>
+              <Image fluid={product.image.fluid} alt={product.title}></Image>
               <h3>
-                {products.title}
-                <span> ${products.price}</span>
+                {product.title}
+                <span> ${product.price}</span>
               </h3>
-              <Link to={`/products/${products.slug}`}>More Details</Link>
+              <Link to={`/products/${product.slug}`}>More Details</Link>
             </article>
           )
         })}
