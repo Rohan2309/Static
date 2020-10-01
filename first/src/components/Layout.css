@@ -5,18 +5,18 @@ body {
 }
 
 h1 {
-  color: lightgreen;
+  color: rgb(124, 245, 124);
   text-transform: uppercase;
 }
 p {
   line-height: 2;
 }
 .b-text {
-  color: red;
+  color: rgb(235, 53, 53);
   line-height: 0.5;
 }
 .p-text {
-  color: blue;
+  color: rgb(87, 87, 245);
   line-height: 3;
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 .s-image {
-  border: 3px solid red;
+  border: 3px solid rgb(250, 94, 94);
   padding: 1rem 0;
 }
 
